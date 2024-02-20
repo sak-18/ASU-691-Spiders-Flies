@@ -13,7 +13,7 @@ SPIDER_IMAGE = pygame.image.load('assets/spider.png')  # Load spider image
 FLY_IMAGE = pygame.image.load('assets/fly.png')  # Load fly image
 
 # Define initial positions of flies and spiders
-flies = [(1, 7), (2, 3), (4, 6), (8, 2), (8, 8)]  # Coordinates now represent (row, column)/(y, x)
+flies = [(1, 7), (2, 3), (4, 6), (8, 2), (8, 8)]  # Coordinates now represent (x, y)
 spiders = [(6, 0), (6, 0)]  # Two spiders starting at the same position
 flies_eaten = [False] * len(flies)  # Initialize all flies as not eaten
 
@@ -59,7 +59,7 @@ def move_spiders():
         for j, fly in enumerate(flies):
             if not flies_eaten[j]:
                 distance = manhattan_distance(spider, fly)
-                if distance < min_distance or (distance == min_distance and abs(spider[0] - fly[0]) < abs(spider[1] - fly[1])):
+                if distance < min_distance or (distance == min_distance and abs(spider[0] - fly[0]) > abs(spider[0] - flies[closest_fly_index][0])):
                     min_distance = distance
                     closest_fly_index = j
         
