@@ -73,7 +73,7 @@ def rollout(spiders, spider_index):
         min_cost = float('inf')
         closest_fly_index = None
         #time.sleep(0.1)
-        print(f"Rollout step: Spider {spider_index}, Current position: {spider}, Rollout flies eaten: {rollout_flies_eaten}, Total cost: {total_cost}")
+        #print(f"Rollout step: Spider {spider_index}, Current position: {spider}, Rollout flies eaten: {rollout_flies_eaten}, Total cost: {total_cost}")
 
         for i, fly in enumerate(flies):
             if rollout_flies_eaten[i]:
