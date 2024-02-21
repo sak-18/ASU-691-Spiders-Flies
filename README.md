@@ -35,4 +35,4 @@ Simulations for each scenario:
 1) Clone the repository.
 2) `source ./bin/activate` to activate the `venv` envrionment.
 2) `pip install -r requirements.txt` for installing libraries.
-3) Run each of the 3 `.py` files to run the simulation (`python base_heuristic.py`).
+3) Run each of the 3 `.py` files to run the simulation (Ex: `python base_heuristic.py`).
