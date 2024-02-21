@@ -7,7 +7,7 @@ This project focuses on simulating the movements of spiders on a board containin
 
 In this scenario, spiders move towards the nearest fly based on the Manhattan distance between them. Describe the implementation of this heuristic and its limitations.
 
-### Single Agent Rollout
+### Single-Agent Rollout
 
 Spiders are moved simultaneously at each step with a 1-step lookahead rollout. Explain how this strategy differs from the base heuristic and its potential advantages.
 
@@ -23,7 +23,7 @@ Simulations for each scenario:
 
 ![Base Heuristic Simulation](assets/base-heuristic.gif)
 
-### Single Agent Rollout
+### Single-Agent Rollout
 
 ![Single Agent Rollout Simulation](assets/singleagent-rollout.gif)
 
