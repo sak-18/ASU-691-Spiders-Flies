@@ -25,11 +25,11 @@ Simulations for each scenario:
 
 ### Single Agent Rollout
 
-![Single Agent Rollout Simulation](assets/single-agent-rollout.gif)
+![Single Agent Rollout Simulation](assets/singleagent-rollout.gif)
 
 ### Multi-Agent Rollout
 
-![Multi-Agent Rollout Simulation](assets/multi-agent-rollout.gif)
+![Multi-Agent Rollout Simulation](assets/multiagent-rollout.gif)
 
 ## Usage
 1) Clone the repository.
